@@ -14,31 +14,31 @@
         android:theme="@style/Theme.GilgitApp"
         tools:targetApi="31">
         <activity
-            android:name=".BikesDetails"
+            android:name=".Activities.BikesDetails"
             android:exported="false" />
         <activity
-            android:name=".CarsSuvsDetails"
+            android:name=".Activities.CarsSuvsDetails"
             android:exported="false" />
         <activity
-            android:name=".MakeAnOffer"
+            android:name=".Activities.MakeAnOffer"
             android:exported="false" />
         <activity
-            android:name=".MobilesDetails"
+            android:name=".Activities.MobilesDetails"
             android:exported="false" />
         <activity
-            android:name=".LaptopsDetails"
+            android:name=".Activities.LaptopsDetails"
             android:exported="false" />
         <activity
-            android:name=".PetsDetails"
+            android:name=".Activities.PetsDetails"
             android:exported="false" />
         <activity
-            android:name=".ShopDetails"
+            android:name=".Activities.ShopDetails"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".Activities.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".HouseDetails"
+            android:name=".Activities.HouseDetails"
             android:exported="false" />
         <activity
             android:name=".selectcategory.Other"
@@ -56,10 +56,10 @@
             android:name=".selectcategory.Furniture"
             android:exported="false" />
         <activity
-            android:name=".LoginWithPhoneNumber"
+            android:name=".Activities.LoginWithPhoneNumber"
             android:exported="false" />
         <activity
-            android:name=".UserOtpVerifyActivity"
+            android:name=".Activities.UserOtpVerifyActivity"
             android:exported="false" />
         <activity
             android:name=".selectcategory.Appliances"

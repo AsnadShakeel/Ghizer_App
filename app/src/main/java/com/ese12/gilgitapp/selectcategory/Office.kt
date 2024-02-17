@@ -14,8 +14,7 @@ import android.view.ViewGroup
 import android.view.Window
 import android.widget.*
 import androidx.core.content.res.ResourcesCompat
-import com.ese12.gilgitapp.OfferModel
-import com.ese12.gilgitapp.OfficeModel
+import com.ese12.gilgitapp.Models.OfficeModel
 import com.ese12.gilgitapp.R
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.google.firebase.database.FirebaseDatabase

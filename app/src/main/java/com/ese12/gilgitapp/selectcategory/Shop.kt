@@ -15,7 +15,7 @@ import android.view.Window
 import android.widget.*
 import androidx.core.content.res.ResourcesCompat
 import com.ese12.gilgitapp.R
-import com.ese12.gilgitapp.ShopModel
+import com.ese12.gilgitapp.Models.ShopModel
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.google.firebase.database.FirebaseDatabase
 import com.nex3z.flowlayout.FlowLayout

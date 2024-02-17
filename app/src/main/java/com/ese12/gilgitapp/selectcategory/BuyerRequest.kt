@@ -15,7 +15,6 @@ import android.view.ViewGroup
 import android.view.Window
 import android.widget.*
 import androidx.core.content.res.ResourcesCompat
-import com.ese12.gilgitapp.BuyerRequestsAdapter
 import com.ese12.gilgitapp.MainActivity
 import com.ese12.gilgitapp.R
 import com.ese12.gilgitapp.domain.models.BuyerRequestModel

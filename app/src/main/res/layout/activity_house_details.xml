@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ECECEC"
-    tools:context=".CarsSuvsDetails">
+    tools:context=".Activities.CarsSuvsDetails">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

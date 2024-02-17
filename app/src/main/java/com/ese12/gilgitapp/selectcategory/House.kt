@@ -14,7 +14,7 @@ import android.view.ViewGroup
 import android.view.Window
 import android.widget.*
 import androidx.core.content.res.ResourcesCompat
-import com.ese12.gilgitapp.HouseModel
+import com.ese12.gilgitapp.Models.HouseModel
 import com.ese12.gilgitapp.R
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.google.firebase.database.FirebaseDatabase
