@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/dialog_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/choosetxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunitomedium"
+            android:text="Select Location"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter location.."
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Popular cities"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <com.nex3z.flowlayout.FlowLayout
+            android:id="@+id/flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:flChildSpacing="8dp"
+            app:flChildSpacingForLastRow="align"
+            app:flRowSpacing="8dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

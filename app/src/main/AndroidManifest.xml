@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GilgitApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".BikesDetails"
+            android:exported="false" />
+        <activity
+            android:name=".CarsSuvsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MakeAnOffer"
+            android:exported="false" />
+        <activity
+            android:name=".MobilesDetails"
+            android:exported="false" />
+        <activity
+            android:name=".LaptopsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".PetsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ShopDetails"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HouseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Other"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Dry_Friut"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Books"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.FashionBeauty"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Furniture"
+            android:exported="false" />
+        <activity
+            android:name=".LoginWithPhoneNumber"
+            android:exported="false" />
+        <activity
+            android:name=".UserOtpVerifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Appliances"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Plot"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Shop"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Office"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Pets"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.House"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.LaptopsAccessories"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.MobileAccessories"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.Bikes"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.CarsSuvs"
+            android:exported="false" />
+        <activity
+            android:name=".selectcategory.BuyerRequest"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAfpjPj2_qCM6dgKxVCGOgh1q_VcukaMBs" />
+    </application>
+
+</manifest>

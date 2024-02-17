@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MakeAnOffer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:id="@+id/imageBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/back"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make An Offer"
+                android:fontFamily="@font/nunitomedium"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Title"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:hint="What Do You Want to offer?"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:hint="PKR 2000,3000 etc"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Images"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:gravity="top"
+            android:hint="Write detail description of what are you offering"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+        <TextView
+            android:id="@+id/postARequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Offer"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunitomedium"
+            android:textStyle="bold"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

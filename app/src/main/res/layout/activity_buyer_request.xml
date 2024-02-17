@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".selectcategory.BuyerRequest">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+            <ImageView
+                android:id="@+id/imageBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/back"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post A Buyer Request"
+                android:fontFamily="@font/nunitomedium"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You have only 5 Buyer Request to post. Learn More"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/nunitolight"
+            android:background="#2196F3"
+            android:textColor="@color/white"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:hint="User Name"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are you looking for?"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtLooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:hint="I am looking for"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/outline_edittext_background"
+            android:contentDescription="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/etdPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:hint="12,000"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Karachi"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunitolight"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_location"
+            android:background="@drawable/outline_edittext_background"
+            />
+
+        <TextView
+            android:id="@+id/postARequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post a Request"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/nunitomedium"
+            android:textStyle="bold"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+

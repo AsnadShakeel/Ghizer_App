@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ghizer app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="improve_your_productivity_with_notes">SignUp to Sell Any Prodict</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="preference_name">com.ese12.gilgitapp</string>
+</resources>
